@@ -1,0 +1,173 @@
+/* built by Usama Munir
+usama_1s@hotmail.com
+usamamunir1s@gmail.com
+23/06/2020  */
+.rtl-body{
+  direction: rtl;
+}
+.rtl-body .top-sec .robot{
+  left: 0 !important;
+  right: auto;
+  transform: scaleX(-1);
+}
+.rtl-body .top-sec .robot-background{
+
+
+  right: auto;
+  left: 0;
+  animation: zoomInOutrtl 2.5s linear infinite;
+
+}
+
+.rtl-body .lang-chng{
+  direction: ltr;
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.rtl-body .brand{
+  margin-right: 100px;
+}
+
+.rtl-body .brand .logo-1{
+
+  right: 10px;
+  left: auto;
+  transform: scale(-1);
+}
+.rtl-body .brand .logo-2{
+  right: 12px;
+  left: auto;
+  transform: scale(-1);
+}
+.rtl-body .brand .logo-3{
+  right: 38px;
+  left: auto;
+}
+
+.rtl-body .brand .name{
+  left: 13px;
+  right: auto;
+  top:5px;
+  width: 200px;
+}
+
+.rtl-body .top-text{
+  margin-right: 100px;
+  margin-left: auto;
+}
+
+.rtl-body .gamer-1 img:nth-child(3){
+  right: 20px;
+}
+.rtl-body .gamer-1 img:nth-child(4){
+  right: 9px;
+}
+
+.rtl-body .gamer-1 h1{
+  right: 85px;
+  text-align: right;
+}
+.rtl-body .gamer-1 h2{
+  right: 85px;
+  text-align: right;
+
+}
+.rtl-body .gamer-1 h3{
+  right: 85px;
+  text-align: right;
+}
+.rtl-body .gamer-1 h4{
+  right: 30px;
+}
+
+/* third page */
+
+.brand-3{
+
+
+
+}
+.rtl-body .brand-3{
+
+  /* margin: 15px 100px 50px auto; */
+
+  transform-origin: top right;
+  position: absolute !important;
+  top: 11px;
+  right: 20px;
+  transform: scale(0.6);
+
+}
+
+.rtl-body .top-sec-3 .top-bar{
+  text-align: left !important;
+}
+
+.rtl-body .brand-3 .logo-1{
+
+  width: 90px;
+
+  top:11px;
+
+  right: 16px;
+
+
+}
+
+.rtl-body .brand-3 .logo-2{
+
+  width: 80px;
+
+  top:10px;
+
+  right: 18px;
+
+  left: auto;
+
+}
+
+.rtl-body .brand-3 .logo-3{
+  top:35px;
+
+  right: 45px;
+
+  left: auto;
+
+}
+
+.rtl-body .brand-3 .name{
+  left: 30px !important;
+  right: auto;
+  top:5px;
+  width: 200px;
+
+}
+
+/* pagination */
+.rtl-body .pagination {
+  transform: scaleX(-1);
+}
+.rtl-body .pagination a{
+  transform: scaleX(-1);
+}
+.rtl-body .pagination .small-btn:hover,
+.rtl-body .pagination .large-btn:hover{
+
+  transform: scaleX(-1) !important;
+  animation: none;
+  /* animation: zoomInOut 1s linear ; */
+
+}
+
+@keyframes zoomInOutrtl {
+  0%{
+    transform: scale(-1);
+  }
+  50%{
+    transform: scale(-0.9);
+  }
+  100%{
+    transform: scale(-1);
+  }
+}
